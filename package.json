@@ -1,0 +1,11 @@
+{
+  "name": "websockets",
+  "version": "1.0.0",
+  "dependencies": {
+    "uuid": "^9.0.1",
+    "ws": "^8.14.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}

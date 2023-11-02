@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Websocket Chat</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div id="chat">
+            <div id="input-container">
+                <select id="recipient">
+                    <option value="all">Todos</option>
+                </select>
+                <input id="message" autocomplete="off" placeholder="Escribe un mensaje" />
+                <button id="send-button">Enviar</button>
+            </div>
+            <div id="message-container">
+                <ul id="messages"></ul>
+            </div>
+        </div>
+        <script src="client.js"></script>
+    </body>
+</html>
